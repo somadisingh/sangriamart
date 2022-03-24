@@ -23,4 +23,4 @@ Sangriamart is NFT marketplace built on L2 scaling solution for Ethereum; Polygo
 4. Sanity.io for storing the user databased data
 5. Thirdweb for creating the smart contracts of NFT collection & the marketplace
 6. Typescript for project setup files
-7. Vercel for hosting the application
+7. Vercel for hosting the application: https://sangriamart.vercel.app/
