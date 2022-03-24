@@ -26,7 +26,10 @@ const nft = () => {
   const nftModule = useMemo(() => {
     if (!provider) return
 
-    const sdk = new ThirdwebSDK(provider.getSigner())
+    const sdk = new ThirdwebSDK(
+      provider.getSigner(),
+      'https://polygon-mumbai.g.alchemy.com/v2/OYg4YFHni_hy3SaPyrAO4Z-BJZOkrqiM'
+    )
     return sdk.getNFTModule('0xdBa0F415Ba7319893eC48EE3756a7677aEF48e9F')
   }, [provider])
 
@@ -43,7 +46,10 @@ const nft = () => {
   const marketPlaceModule = useMemo(() => {
     if (!provider) return
 
-    const sdk = new ThirdwebSDK(provider.getSigner())
+    const sdk = new ThirdwebSDK(
+      provider.getSigner(),
+      'https://polygon-mumbai.g.alchemy.com/v2/OYg4YFHni_hy3SaPyrAO4Z-BJZOkrqiM'
+    )
     return sdk.getMarketplaceModule(
       '0xdBa0F415Ba7319893eC48EE3756a7677aEF48e9F'
     )

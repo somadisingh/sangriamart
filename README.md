@@ -1,27 +1,12 @@
-# Next.js + Tailwind CSS Example
+# SangriaMart
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# A decentralized NFT Marketplace built on Polygon
 
-## Preview
+Sangriamart is NFT marketplace built on L2 scaling solution for Ethereum; Polygon. It uses MATIC tokens to buy and sell NFTs.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Known Bugs:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+1. Slow loading and fetching times from thirdweb v2
+2. MetaMask - RPC Error: Internal JSON-RPC error
+3. code: -32603 data: code: -32000 message: "execution reverted"
+4. Uncaught (in promise) {code: -32603, message: 'Internal JSON-RPC error.'
