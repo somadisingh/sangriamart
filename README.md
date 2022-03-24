@@ -4,6 +4,12 @@
 
 Sangriamart is NFT marketplace built on L2 scaling solution for Ethereum; Polygon. It uses MATIC tokens to buy and sell NFTs.
 
+## Before Using the App, a few prerequisites:
+1. Install Metamask from: https://metamask.io/
+2. Add the Mumbai Polygon testnet to your metamask networks from: https://chainlist.org/ 
+3. After adding the testnet get atleast 5 MATIC tokens from: https://faucet.polygon.technology/
+4. Now go to the app: https://sangriamart.vercel.app/ and connect your wallet containing the MATIC tokens
+
 ## Known Bugs:
 
 1. Slow loading and fetching times from thirdweb v2
