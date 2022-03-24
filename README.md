@@ -10,7 +10,10 @@ Sangriamart is NFT marketplace built on L2 scaling solution for Ethereum; Polygo
 2. MetaMask - RPC Error: Internal JSON-RPC error
 3. code: -32603 data: code: -32000 message: "execution reverted"
 4. Uncaught (in promise) {code: -32603, message: 'Internal JSON-RPC error.'
-5.
+5. err: insufficient funds for gas * price + value: address 0x6438B8bE43381B4CdB474c1A907111508FA6fE80 have 294000 want 4000000000000000000 (supplied gas 275010499)
+6. ![image](https://user-images.githubusercontent.com/78269625/159857257-9bb9430d-8ad1-4a2c-9bd1-7ff5038ab36c.png)
+7. ![image](https://user-images.githubusercontent.com/78269625/159857469-c8a6bc72-d0bf-4e37-a109-84db4a325218.png)
+
 
 ## Technologies Used:
 
