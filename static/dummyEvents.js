@@ -2,7 +2,7 @@ export const dummyEvents = [
   {
     price: 4,
     from: 'probro',
-    to: 'ranhac23',
+    to: 'ranhasc23',
     date: '3 weeks ago',
   },
   {

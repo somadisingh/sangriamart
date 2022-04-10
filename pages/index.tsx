@@ -25,7 +25,7 @@ const Home: NextPage = () => {
          walletAddress: address,
        }
        const result = await client.createIfNotExists(userDoc)
-     })() /*IIFE*/
+     })() /*Immediately invokable functional expression*/
 
      }, [address])
   

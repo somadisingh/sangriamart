@@ -27,7 +27,7 @@ const Hero = () => {
               Discover, collect, and sell extraordinary NFTs
             </div>
             <div className={style.description}>
-              SangriaMart: Buy & Sell NFTs at negligible gas fees and high
+              SangriaMart: Buy and Sell NFTs at negligible gas fees and high
               transaction speeds
             </div>
             <div className={style.ctaContainer}>
