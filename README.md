@@ -24,7 +24,7 @@ Sangriamart is NFT marketplace built on L2 scaling solution for Ethereum; Polygo
 ## Technologies Used:
 
 1. Nextjs and Tailwind CSS for the Frontend Application
-2. Polygon L2 scaling solution for ethereum
+2. Polygon L2 scaling solution for hosting the dapp on.
 3. @3rdweb for Web3 connectivity
 4. Sanity.io for storing the user databased data
 5. Thirdweb for creating the smart contracts of NFT collection & the marketplace
